@@ -71,7 +71,7 @@ ShadowsocksR-libev-full for OpenWrt
    cp -r ~/openwrt-feeds/base/polarssl/ ./package/feeds/base/
    
    # git clone openwrt-shadowsocksR-libev-full
-   git clone -b master https://github.com/bettermanbao/openwrt-shadowsocksR-libev-full.git package/shadowsocksR-libev-full
+   git clone -b master https://github.com/zhaoxitao/openwrt-ssr-libev-full.git package/shadowsocksR-libev-full
    
    # 选择要编译的包 Network -> shadowsocksr-libev
    make menuconfig
