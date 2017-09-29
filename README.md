@@ -68,7 +68,7 @@ ShadowsocksR-libev-full for OpenWrt
  
     # 一些杂七杂八的坑2(解决"lede configure: error: PolarSSL libraries not found"的错误)
    git clone https://github.com/AlexZhuo/openwrt-feeds.git ~/openwrt-feeds
-   cp -r cp ~/openwrt-feeds/base/polarssl/ ./package/feeds/base/
+   cp -r ~/openwrt-feeds/base/polarssl/ ./package/feeds/base/
    
    # git clone openwrt-shadowsocksR-libev-full
    git clone -b master https://github.com/bettermanbao/openwrt-shadowsocksR-libev-full.git package/shadowsocksR-libev-full
